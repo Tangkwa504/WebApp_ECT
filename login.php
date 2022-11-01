@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="container"> 
-    <h1 style="text-align: center;"><center>Webboard lnwZa</center></h1>
+    <h1 style="text-align: center;"><center>Webboard MeawMeaw</center></h1>
 
     <?php include "nav.php"; ?>
     <br>
@@ -35,7 +35,7 @@
             <div class="card text-dark bg-light">
                 <div class="card-header">เข้าสู่ระบบ</div>
                 <div class="card-body">
-                    <form action="veify.php" method="POST">
+                    <form action="verify.php" method="POST">
                         <div class="form-group mb-3">
                             <label for="login">Login:</label>
                             <input type="text" name="login" class="form-control mt-2">
